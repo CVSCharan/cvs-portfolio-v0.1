@@ -1,0 +1,269 @@
+.light-snake-game-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f3fbfc;
+}
+
+.light-snake-game-header-container {
+  width: 90%;
+  border: 1.5px solid #035295;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 7px;
+}
+
+.dark-snake-game-header-container {
+  width: 90%;
+  border: 1.5px solid #01d293;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 7px;
+}
+
+.dark-snake-game-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #171f38;
+}
+
+.snake-game-sub-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+}
+
+.light-snake-game-sub-container2-main {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dark-snake-game-sub-container2-main {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.light-snake-game-sub-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  border: 1px solid blue;
+  border-radius: 7px;
+}
+
+.dark-snake-game-sub-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  border: 1px solid #e0e1dd;
+  border-radius: 7px;
+}
+
+.light-snake-game-main-container-txt {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #035295;
+}
+
+.dark-snake-game-main-container-txt {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #01d293;
+}
+
+.light-snake-game-main-container-btn {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #035295;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.dark-snake-game-main-container-btn {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #01d293;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.light-snake-game-canvas-container {
+  border: 1.5px solid #74bdcb !important;
+  border-radius: 7px;
+}
+
+.dark-snake-game-canvas-container {
+  border: 1.5px solid #e0e1dd !important;
+  border-radius: 7px;
+}
+
+.light-snake-game-score {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+
+.dark-snake-game-score {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  color: #e0e1dd;
+}
+
+.light-snake-game-high-score {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #035295;
+}
+
+.dark-snake-game-high-score {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #01d293;
+  letter-spacing: 1.5px;
+}
+
+.light-snake-game-btn {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  height: 10%;
+  width: 50%;
+  border-radius: 7px;
+  border: 1.5px solid black;
+  color: #035295;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dark-snake-game-btn {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  color: #01d293;
+  border: 1.5px solid #e0e1dd;
+  letter-spacing: 1.5px;
+  height: 10%;
+  width: 50%;
+  border-radius: 7px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.snake-game-over {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  color: tomato;
+}
+
+.snake-game-arrows-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+.light-snake-game-arrows {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px !important;
+  color: #035295;
+}
+
+.dark-snake-game-arrows {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px !important;
+  color: #e0e1dd;
+}
+
+@media (max-width: 768px) {
+  .light-snake-game-high-score {
+    font-size: 15px;
+  }
+  .dark-snake-game-high-score {
+    font-size: 15px;
+  }
+  .light-snake-game-arrows {
+    font-size: 17px !important;
+  }
+
+  .dark-snake-game-arrows {
+    font-size: 17px !important;
+  }
+  .snake-game-over {
+    font-size: 13px;
+  }
+  .light-snake-game-btn {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .dark-snake-game-btn {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .light-snake-game-score {
+    font-size: 13px;
+  }
+  .dark-snake-game-score {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .light-snake-game-high-score {
+    font-size: 13px;
+  }
+  .dark-snake-game-high-score {
+    font-size: 13px;
+  }
+  .snake-game-over {
+    font-size: 10px;
+  }
+  .light-snake-game-btn {
+    font-size: 8px;
+    font-weight: 800;
+  }
+  .dark-snake-game-btn {
+    font-size: 8px;
+    font-weight: 800;
+  }
+  .light-snake-game-score {
+    font-size: 10px;
+  }
+  .dark-snake-game-score {
+    font-size: 10px;
+  }
+}
